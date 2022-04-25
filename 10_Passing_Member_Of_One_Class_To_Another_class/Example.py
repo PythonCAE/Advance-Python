@@ -14,7 +14,7 @@ class Person:
 
     def display_person_info(self):
         print('Name: ' ,self.person_name)
-        print('Ranged Weapon :',self.ranged_weapon.display_weapon_name)  
+        print('Ranged Weapon :' %Weapon.display_weapon_name)  
 
     def ranged_attack(self,ranged_weapon,target):
         target.health -= ranged_weapon.weapon_damage
